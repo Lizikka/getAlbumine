@@ -26,11 +26,12 @@ background-color:rgb(137, 194, 40);
     body  {
       background-color: blue;
       padding-top: 250px;
-      width: 280px;
+      
     }
     .title {
-        margin: 0 auto;
-        font-family: 'Mystery Quest', cursive;
-        color: rgb(74, 57, 57);
+       width: 350px; 
+        
+        
+    
     }
   }
