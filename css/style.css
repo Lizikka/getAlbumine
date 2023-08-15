@@ -6,8 +6,8 @@ body {
 }
 .title {
     
-  /* font-family: 'Love Ya Like A Sister', cursive; */
-  font-family: 'Lily Script One', cursive;
+  
+font-family: 'Ubuntu', sans-serif;
 color: rgb(74, 57, 57);
 font-size: 25px;
 height: 100px;
@@ -16,9 +16,21 @@ margin: 0 auto;
 padding-top: 25px;
 text-align: center;
 border-radius: 70px;
-border: solid rgb(48, 42, 42) 3px;
+/* border: solid rgb(48, 42, 42) 3px; */
 vertical-align: middle;
 background-color:rgb(137, 194, 40);
+box-shadow: 10px 5px 5px grey;
+}
+
+.alert {
+  width: 300px;
+  height: 100px;
+  margin: 10px auto;
+  background-color: blueviolet;
+  text-align: center;
+  border-radius: 60px;
+  padding-top: 30px;
+  
 }
 
 @media (max-width: 500px) {
