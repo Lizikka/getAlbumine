@@ -22,7 +22,7 @@ button.addEventListener('click',  createBox)
 function createBox(){
     document.body.append(div)
     number = Number(num.value)
-    // numberOfSamples = Number(prompt("Введіть оптичну щільність зразка"))
+    
     sum = ( number/ 1.028) * 50 
     div.innerHTML = `Концентрація альбуміну: ${sum} г/л`
 }
