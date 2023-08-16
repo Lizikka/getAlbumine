@@ -8,8 +8,9 @@ button.addEventListener('touchstart', createBox)
 
 function createBox(){
     document.body.append(div)
-     numberOfSamples = prompt("Введіть число проб плазми")
-     div.innerHTML = 'gggg'
+     numberOfSamples = prompt("Введіть оптичну щільність зразка")
+     sum = (numberOfSamples / 1.028) * 50 
+     div.innerHTML = `Концентрація альбуміну: ${sum} г/л`
 }
 
 button.addEventListener('click',  createBox)
