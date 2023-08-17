@@ -34,10 +34,10 @@ p {
 }
 input {
   border-radius: 60px;
-  border: 1px solid grey;
+  border: 1px solid rgb(121, 101, 101);
   height: 25px;
-  padding: 5px;
-  width: 300px;
+  padding: 20px;
+  width: 250px;
   text-align: center;
   
 }
