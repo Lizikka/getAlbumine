@@ -16,9 +16,9 @@ function createBox(){
      sum = (number / 1.028) * 50 
      div.innerHTML = `Концентрація альбуміну: ${sum} г/л`
      if (sum < 35) || (sum > 55){
-     div.style.color = 'pink'}
+     div.style.backgroundColor = 'pink'}
      if ( sum > 35 )|| (sum < 55){
-        div.style.color = 'green'
+        div.style.backgroundColor = 'green'
      }
 }
 
