@@ -29,7 +29,7 @@ function createBox(){
     number = Number(num.value)
     
     sum = ( number/ 1.028) * 50 
-    if (sum < 35 || sum > 55){
+    if ((sum < 35) || (sum > 50)){
         div.style.backgroundColor = 'pink'}
         
     div.innerHTML = `Концентрація альбуміну: ${sum} г/л`
