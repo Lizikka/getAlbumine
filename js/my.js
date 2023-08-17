@@ -17,9 +17,9 @@ function createBox(){
      div.innerHTML = `Концентрація альбуміну: ${sum} г/л`
      if ((sum < 35) || (sum > 55)){
      div.style.backgroundColor = 'pink'}
-     if (( sum > 35 )|| (sum < 55)){
-        div.style.backgroundColor = 'green'
-     }
+    //  if (( sum > 35 )|| (sum < 55)){
+    //     div.style.backgroundColor = 'green'
+    //  }
 }
 
 button.addEventListener('click',  createBox)
@@ -31,9 +31,9 @@ function createBox(){
     sum = ( number/ 1.028) * 50 
     if ((sum < 35) || (sum > 50)){
         div.style.backgroundColor = 'pink'}
-        if (( sum > 35 )|| (sum < 55)){
-        div.style.backgroundColor = 'green'
-     }
+    //     if (( sum > 35 )|| (sum < 55)) {
+    //     div.style.backgroundColor = 'green'
+    //  }
     div.innerHTML = `Концентрація альбуміну: ${sum} г/л`
 
 }
