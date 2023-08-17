@@ -67,7 +67,8 @@ font-size: 25px;
     
     
     body  {
-      background-color: blue;
+      /* background-color: rgb(116, 116, 169); */
+      background: url(../png-transparent-graphing-papaer-paper-angle-spoonflower-textile-pattern-squared-school-notebook-sheet-texture-blue-text-thumbnail.png);
       padding-top: 100px;
       
     }
