@@ -32,7 +32,7 @@ function createBox(){
     if (sum < 35) || (sum > 50){
         div.style.backgroundColor = 'pink'}
         if ( sum > 35 )|| (sum < 55){
-        div.style.color = 'green'
+        div.style.backgroundColor = 'green'
      }
     div.innerHTML = `Концентрація альбуміну: ${sum} г/л`
 
