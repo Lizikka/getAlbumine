@@ -15,10 +15,10 @@ function createBox(){
      number = Number(num.value)
      sum = (number / 1.028) * 50 
      div.innerHTML = `Концентрація альбуміну: ${sum} г/л`
-     if (sum < 35 || sum > 55){
-     div.style.color = 'pink'}
-     if ( sum > 35 || sum < 55){
-        div.style.color = 'green'
+     if (sum < 35) || (sum > 55){
+     div.style.backgroundColor = 'pink'}
+     if ( sum > 35 )|| (sum < 55){
+        div.style.backgroundColor = 'green'
      }
 }
 
@@ -29,9 +29,11 @@ function createBox(){
     number = Number(num.value)
     
     sum = ( number/ 1.028) * 50 
-    if ((sum < 35) || (sum > 50)){
+    if (sum < 35) || (sum > 50){
         div.style.backgroundColor = 'pink'}
-        
+        if ( sum > 35 )|| (sum < 55){
+        div.style.backgroundColor = 'green'
+     }
     div.innerHTML = `Концентрація альбуміну: ${sum} г/л`
 
 }
